@@ -1,0 +1,98 @@
+{
+  "lang": "ja",
+  "level": "가타카나 5일차",
+  "title": "ラ행 · ワ와 탁음 ゛゜",
+  "subtitle": "ラ リ ル レ ロ ワ ヲ · ガ ザ ダ バ パ",
+  "goal": "남은 기본 글자를 다 쓰고, '～が ありますか'로 물건이 있는지 물을 수 있어요.",
+  "sections": [
+    {
+      "title": "1. 오늘의 글자",
+      "items": [
+        {
+          "type": "note",
+          "text": "오늘로 가타카나 기본 글자가 끝나요!",
+          "style": "cards",
+          "examples": [
+            { "text": "ラ", "ko": "ra · ら" },
+            { "text": "リ", "ko": "ri · り" },
+            { "text": "ル", "ko": "ru · る" },
+            { "text": "レ", "ko": "re · れ" },
+            { "text": "ロ", "ko": "ro · ろ" },
+            { "text": "ワ", "ko": "wa · わ" },
+            { "text": "ヲ", "ko": "o · を" }
+          ]
+        },
+        {
+          "type": "note",
+          "title": "알아 두기",
+          "text": "**ル**(ru)는 획이 두 개, **レ**(re)는 하나예요.\n**ワ**(wa)와 **ウ**(u): ウ는 위에 점이 있어요. **ワ**와 **フ**(fu): ワ는 왼쪽에 짧은 세로획이 있어요.\n**ロ**(ro)는 한자 '口'처럼 네모 모양이에요.\n**ヲ**는 조사 を를 가타카나로 쓸 때만 나와서 거의 안 써요."
+        },
+        {
+          "type": "note",
+          "title": "탁음 ゛ · 반탁음 ゜",
+          "text": "히라가나와 규칙이 똑같아요. **゛**를 붙이면 탁음, **゜**를 붙이면 반탁음이 돼요.\nカ→**ガ** · サ→**ザ** · タ→**ダ** · ハ→**バ**→**パ**",
+          "style": "cards",
+          "examples": [
+            { "text": "ガ", "ko": "ga · が" },
+            { "text": "ジ", "ko": "ji · じ" },
+            { "text": "ド", "ko": "do · ど" },
+            { "text": "ビ", "ko": "bi · び" },
+            { "text": "パ", "ko": "pa · ぱ" }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "2. 따라 쓰기",
+      "desc": "흐린 글자를 따라 3번 쓰고, 빈칸에 혼자 써 보세요.",
+      "items": [
+        { "type": "kana", "char": "ラ", "romaji": "ra", "ko": "라 · ら", "blank": 5 },
+        { "type": "kana", "char": "リ", "romaji": "ri", "ko": "리 · り", "blank": 5 },
+        { "type": "kana", "char": "ル", "romaji": "ru", "ko": "루 · る", "blank": 5 },
+        { "type": "kana", "char": "レ", "romaji": "re", "ko": "레 · れ", "blank": 5 },
+        { "type": "kana", "char": "ロ", "romaji": "ro", "ko": "로 · ろ", "blank": 5 },
+        { "type": "kana", "char": "ワ", "romaji": "wa", "ko": "와 · わ", "blank": 5 },
+        { "type": "kana", "char": "ヲ", "romaji": "o", "ko": "오 · を", "blank": 5 }
+      ]
+    },
+    {
+      "title": "3. 단어 써 보기",
+      "desc": "히라가나를 보고 가타카나로 써 보세요.",
+      "items": [
+        { "type": "write", "prompt": "といれ", "hint": "화장실", "answer": "トイレ" },
+        { "type": "write", "prompt": "ほてる", "hint": "호텔", "answer": "ホテル" },
+        { "type": "write", "prompt": "かめら", "hint": "카메라", "answer": "カメラ" },
+        { "type": "write", "prompt": "れすとらん", "hint": "레스토랑", "answer": "レストラン" },
+        { "type": "write", "prompt": "げーむ", "hint": "게임", "answer": "ゲーム" },
+        { "type": "write", "prompt": "ぱん", "hint": "빵", "answer": "パン" },
+        { "type": "write", "prompt": "びーる", "hint": "맥주", "answer": "ビール" },
+        { "type": "write", "prompt": "でぱーと", "hint": "백화점", "answer": "デパート" }
+      ]
+    },
+    {
+      "title": "4. 오늘의 문장: ～が ありますか。",
+      "items": [
+        {
+          "type": "note",
+          "text": "**～が ありますか。** = ~ 있어요? (물건이 있는지 물을 때)\n대답: **はい、あります。**(네, 있어요.) · **いいえ、ありません。**(아니요, 없어요.)",
+          "examples": [
+            { "text": "パンが ありますか。", "ko": "빵 있어요?" },
+            { "text": "いいえ、ありません。", "ko": "아니요, 없어요." }
+          ]
+        },
+        { "type": "write", "prompt": "カメラが ___か。", "hint": "카메라 있어요?", "answer": "あります" },
+        { "type": "write", "prompt": "いいえ、___。", "hint": "아니요, 없어요.", "answer": "ありません" }
+      ]
+    },
+    {
+      "title": "5. 일본어로 써 보기",
+      "desc": "한국어 문장을 일본어로 써 보세요. 앞에서 배운 문장도 섞여 있어요.",
+      "items": [
+        { "type": "write", "prompt": "맥주 있어요?", "answer": "ビールが ありますか。", "cells": 20 },
+        { "type": "write", "prompt": "화장실은 어디예요?", "answer": "トイレは どこですか。", "cells": 20 },
+        { "type": "write", "prompt": "호텔은 저기예요.", "answer": "ホテルは あそこです。", "cells": 20 },
+        { "type": "write", "prompt": "저는 게임을 좋아해요.", "answer": "わたしは ゲームが すきです。", "cells": 20 }
+      ]
+    }
+  ]
+}

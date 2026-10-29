@@ -1,0 +1,87 @@
+{
+  "lang": "ja",
+  "level": "가타카나 1일차",
+  "title": "ア행 · カ행과 장음 ー",
+  "subtitle": "ア イ ウ エ オ カ キ ク ケ コ",
+  "goal": "가타카나 10글자를 쓰고, 'これは ～です'로 문장을 만들 수 있어요.",
+  "sections": [
+    {
+      "title": "1. 오늘의 글자",
+      "items": [
+        {
+          "type": "note",
+          "text": "가타카나는 주로 **외래어**(외국에서 온 말)를 쓸 때 써요. 소리는 히라가나와 똑같고 모양만 달라요.",
+          "style": "cards",
+          "examples": [
+            { "text": "ア", "ko": "a · あ" },
+            { "text": "イ", "ko": "i · い" },
+            { "text": "ウ", "ko": "u · う" },
+            { "text": "エ", "ko": "e · え" },
+            { "text": "オ", "ko": "o · お" },
+            { "text": "カ", "ko": "ka · か" },
+            { "text": "キ", "ko": "ki · き" },
+            { "text": "ク", "ko": "ku · く" },
+            { "text": "ケ", "ko": "ke · け" },
+            { "text": "コ", "ko": "ko · こ" }
+          ]
+        },
+        {
+          "type": "note",
+          "title": "알아 두기",
+          "text": "**장음 ー**: 가타카나 단어에서는 길게 읽는 소리를 **ー**로 써요. 예: ケーキ(케-키)\n**ア**와 **マ**: ア는 두 번째 획이 아래로 길게 빠지고, マ는 짧은 점으로 끝나요. (マ는 4일차에 배워요)\n**エ**는 히라가나 え와 전혀 다르게, 한자 '工'처럼 생겼어요."
+        }
+      ]
+    },
+    {
+      "title": "2. 따라 쓰기",
+      "desc": "흐린 글자를 따라 3번 쓰고, 빈칸에 혼자 써 보세요.",
+      "items": [
+        { "type": "kana", "char": "ア", "romaji": "a", "ko": "아 · あ", "blank": 5 },
+        { "type": "kana", "char": "イ", "romaji": "i", "ko": "이 · い", "blank": 5 },
+        { "type": "kana", "char": "ウ", "romaji": "u", "ko": "우 · う", "blank": 5 },
+        { "type": "kana", "char": "エ", "romaji": "e", "ko": "에 · え", "blank": 5 },
+        { "type": "kana", "char": "オ", "romaji": "o", "ko": "오 · お", "blank": 5 },
+        { "type": "kana", "char": "カ", "romaji": "ka", "ko": "카 · か", "blank": 5 },
+        { "type": "kana", "char": "キ", "romaji": "ki", "ko": "키 · き", "blank": 5 },
+        { "type": "kana", "char": "ク", "romaji": "ku", "ko": "쿠 · く", "blank": 5 },
+        { "type": "kana", "char": "ケ", "romaji": "ke", "ko": "케 · け", "blank": 5 },
+        { "type": "kana", "char": "コ", "romaji": "ko", "ko": "코 · こ", "blank": 5 }
+      ]
+    },
+    {
+      "title": "3. 단어 써 보기",
+      "desc": "히라가나를 보고 가타카나로 써 보세요.",
+      "items": [
+        { "type": "write", "prompt": "けーき", "hint": "케이크", "answer": "ケーキ" },
+        { "type": "write", "prompt": "ここあ", "hint": "코코아", "answer": "ココア" },
+        { "type": "write", "prompt": "きうい", "hint": "키위", "answer": "キウイ" },
+        { "type": "write", "prompt": "かかお", "hint": "카카오", "answer": "カカオ" },
+        { "type": "write", "prompt": "おーけー", "hint": "오케이(OK)", "answer": "オーケー" }
+      ]
+    },
+    {
+      "title": "4. 오늘의 문장: これは ～です。",
+      "items": [
+        {
+          "type": "note",
+          "text": "**これは ～です。** = 이것은 ~입니다.\n끝에 **か**를 붙이면 질문이 돼요. **これは ～ですか。** = 이것은 ~입니까?\n**これ**(이것) · **それ**(그것) · **あれ**(저것)\n조사 **は**는 'wa(와)'로 읽어요.",
+          "examples": [
+            { "text": "これは ケーキです。", "ko": "이것은 케이크입니다." },
+            { "text": "それは ココアですか。", "ko": "그것은 코코아입니까?" }
+          ]
+        },
+        { "type": "write", "prompt": "これは ___です。", "hint": "이것은 키위입니다.", "answer": "キウイ" },
+        { "type": "write", "prompt": "あれは ___ですか。", "hint": "저것은 카카오입니까?", "answer": "カカオ" }
+      ]
+    },
+    {
+      "title": "5. 일본어로 써 보기",
+      "desc": "한국어 문장을 일본어로 써 보세요. 띄어쓰기 자리는 한 칸 비워요.",
+      "items": [
+        { "type": "write", "prompt": "이것은 케이크입니다.", "answer": "これは ケーキです。", "cells": 20 },
+        { "type": "write", "prompt": "그것은 코코아입니까?", "answer": "それは ココアですか。", "cells": 20 },
+        { "type": "write", "prompt": "저것은 키위입니다.", "answer": "あれは キウイです。", "cells": 20 }
+      ]
+    }
+  ]
+}

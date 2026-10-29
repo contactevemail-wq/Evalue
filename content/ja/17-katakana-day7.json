@@ -1,0 +1,78 @@
+{
+  "lang": "ja",
+  "level": "가타카나 7일차",
+  "title": "종합 복습: 카페에서",
+  "subtitle": "いらっしゃいませ!",
+  "goal": "일주일 동안 배운 가타카나와 문장으로 카페 대화를 읽고 쓸 수 있어요.",
+  "sections": [
+    {
+      "title": "1. 가타카나 읽기",
+      "desc": "가타카나 단어를 읽고, 뜻을 한국어로 써 보세요.",
+      "items": [
+        { "type": "write", "prompt": "レストラン", "answer": "레스토랑", "answerLang": "ko", "layout": "lines", "short": true },
+        { "type": "write", "prompt": "コンビニ", "answer": "편의점", "answerLang": "ko", "layout": "lines", "short": true, "explain": "コンビニエンスストア(convenience store)를 줄인 말이에요." },
+        { "type": "write", "prompt": "チーズケーキ", "answer": "치즈케이크", "answerLang": "ko", "layout": "lines", "short": true },
+        { "type": "write", "prompt": "アイスコーヒー", "answer": "아이스커피", "answerLang": "ko", "layout": "lines", "short": true },
+        { "type": "write", "prompt": "スマホ", "answer": "스마트폰", "answerLang": "ko", "layout": "lines", "short": true, "explain": "スマートフォン(smartphone)을 줄인 말이에요." },
+        { "type": "write", "prompt": "ワイファイ", "answer": "와이파이", "answerLang": "ko", "layout": "lines", "short": true }
+      ]
+    },
+    {
+      "title": "2. 대화 읽기",
+      "desc": "카페에서 주문하는 대화예요. 소리 내어 읽어 보세요.",
+      "items": [
+        {
+          "type": "dialogue",
+          "lines": [
+            { "speaker": "점원", "text": "いらっしゃいませ。", "ko": "어서 오세요." },
+            { "speaker": "나", "text": "すみません、メニューを ください。", "ko": "저기요, 메뉴 주세요." },
+            { "speaker": "점원", "text": "はい、どうぞ。", "ko": "네, 여기 있어요." },
+            { "speaker": "나", "text": "コーヒーと チーズケーキを ください。", "ko": "커피랑 치즈케이크 주세요." },
+            { "speaker": "점원", "text": "ホットですか、アイスですか。", "ko": "따뜻한 거요, 아이스요?" },
+            { "speaker": "나", "text": "アイスで おねがいします。", "ko": "아이스로 부탁해요." },
+            { "speaker": "점원", "text": "かしこまりました。", "ko": "알겠습니다." }
+          ]
+        },
+        {
+          "type": "note",
+          "title": "새로 나온 표현",
+          "text": "**すみません** = 저기요 / 죄송해요 (말을 걸 때도 써요)\n**どうぞ** = 여기 있어요, 드세요 (건네줄 때)\n**A と B** = A랑 B\n**～で おねがいします** = ~로 부탁해요\n**ホット** = 따뜻한 것(hot)"
+        }
+      ]
+    },
+    {
+      "title": "3. 대화 빈칸 채우기",
+      "desc": "대화를 떠올리며 빈칸을 채워 보세요.",
+      "items": [
+        { "type": "write", "prompt": "すみません、メニューを ___。", "hint": "저기요, 메뉴 주세요.", "answer": "ください" },
+        { "type": "write", "prompt": "コーヒー___ チーズケーキを ください。", "hint": "커피랑 치즈케이크 주세요.", "answer": "と" },
+        { "type": "write", "prompt": "アイス___ おねがいします。", "hint": "아이스로 부탁해요.", "answer": "で" }
+      ]
+    },
+    {
+      "title": "4. 일주일 총정리: 일본어로 써 보기",
+      "desc": "이번 주에 배운 문장을 모두 써 봐요.",
+      "items": [
+        { "type": "write", "prompt": "저는 케이크를 좋아해요.", "answer": "わたしは ケーキが すきです。", "cells": 20 },
+        { "type": "write", "prompt": "아이스커피 하나 주세요.", "answer": "アイスコーヒーを ひとつ ください。", "cells": 20 },
+        { "type": "write", "prompt": "화장실은 어디예요?", "answer": "トイレは どこですか。", "cells": 20 },
+        { "type": "write", "prompt": "와이파이 있어요?", "answer": "ワイファイが ありますか。", "alts": ["ワイファイは ありますか。"], "cells": 20, "explain": "있는지 물을 때는 **は**도 자주 써요." },
+        { "type": "write", "prompt": "저는 카페에서 초콜릿을 먹어요.", "answer": "わたしは カフェで チョコレートを たべます。", "cells": 30 }
+      ]
+    },
+    {
+      "title": "5. 나의 일본어 일기",
+      "items": [
+        {
+          "type": "write",
+          "prompt": "좋아하는 음식이나 음료로 일본어 문장을 2~3개 써 보세요.",
+          "hint": "～が すきです / ～を のみます / ～を たべます",
+          "answer": "わたしは コーヒーが すきです。まいにち カフェで コーヒーを のみます。",
+          "example": true,
+          "cells": 50,
+          "explain": "**まいにち** = 매일. 예시를 참고해서 내 이야기로 써 보세요."
+        }
+      ]
+    }
+  ]
+}

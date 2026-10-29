@@ -1,0 +1,86 @@
+{
+  "lang": "ja",
+  "level": "가타카나 4일차",
+  "title": "マ행 · ヤ행과 ン",
+  "subtitle": "マ ミ ム メ モ ヤ ユ ヨ ン",
+  "goal": "ソ와 ン을 구별해서 쓰고, '～は どこですか'로 장소를 물을 수 있어요.",
+  "sections": [
+    {
+      "title": "1. 오늘의 글자",
+      "items": [
+        {
+          "type": "note",
+          "style": "cards",
+          "examples": [
+            { "text": "マ", "ko": "ma · ま" },
+            { "text": "ミ", "ko": "mi · み" },
+            { "text": "ム", "ko": "mu · む" },
+            { "text": "メ", "ko": "me · め" },
+            { "text": "モ", "ko": "mo · も" },
+            { "text": "ヤ", "ko": "ya · や" },
+            { "text": "ユ", "ko": "yu · ゆ" },
+            { "text": "ヨ", "ko": "yo · よ" },
+            { "text": "ン", "ko": "n · ん" }
+          ]
+        },
+        {
+          "type": "note",
+          "title": "알아 두기",
+          "text": "**ソ**(so)와 **ン**(n): ソ는 마지막 획을 **위에서 아래로**, ン은 **아래에서 위로** 올려요. シ와 ツ의 관계와 같아요.\n**ユ**(yu)와 **コ**(ko): ユ는 아래 가로획이 왼쪽으로 길게 튀어나와요.\n**ン**은 받침처럼 한 박자를 차지해요. 예: チキン(치킨)"
+        }
+      ]
+    },
+    {
+      "title": "2. 따라 쓰기",
+      "desc": "흐린 글자를 따라 3번 쓰고, 빈칸에 혼자 써 보세요.",
+      "items": [
+        { "type": "kana", "char": "マ", "romaji": "ma", "ko": "마 · ま", "blank": 5 },
+        { "type": "kana", "char": "ミ", "romaji": "mi", "ko": "미 · み", "blank": 5 },
+        { "type": "kana", "char": "ム", "romaji": "mu", "ko": "무 · む", "blank": 5 },
+        { "type": "kana", "char": "メ", "romaji": "me", "ko": "메 · め", "blank": 5 },
+        { "type": "kana", "char": "モ", "romaji": "mo", "ko": "모 · も", "blank": 5 },
+        { "type": "kana", "char": "ヤ", "romaji": "ya", "ko": "야 · や", "blank": 5 },
+        { "type": "kana", "char": "ユ", "romaji": "yu", "ko": "유 · ゆ", "blank": 5 },
+        { "type": "kana", "char": "ヨ", "romaji": "yo", "ko": "요 · よ", "blank": 5 },
+        { "type": "kana", "char": "ン", "romaji": "n", "ko": "ㄴ받침 · ん", "blank": 5 }
+      ]
+    },
+    {
+      "title": "3. 단어 써 보기",
+      "desc": "히라가나를 보고 가타카나로 써 보세요.",
+      "items": [
+        { "type": "write", "prompt": "きむち", "hint": "김치", "answer": "キムチ" },
+        { "type": "write", "prompt": "ちきん", "hint": "치킨", "answer": "チキン" },
+        { "type": "write", "prompt": "はむ", "hint": "햄", "answer": "ハム" },
+        { "type": "write", "prompt": "ますく", "hint": "마스크", "answer": "マスク" },
+        { "type": "write", "prompt": "めも", "hint": "메모", "answer": "メモ" },
+        { "type": "write", "prompt": "きっちん", "hint": "주방(키친)", "answer": "キッチン" }
+      ]
+    },
+    {
+      "title": "4. 오늘의 문장: ～は どこですか。",
+      "items": [
+        {
+          "type": "note",
+          "text": "**～は どこですか。** = ~는 어디예요?\n대답: **ここ**(여기) · **そこ**(거기) · **あそこ**(저기) + **です**",
+          "examples": [
+            { "text": "キッチンは どこですか。", "ko": "주방은 어디예요?" },
+            { "text": "あそこです。", "ko": "저기예요." }
+          ]
+        },
+        { "type": "write", "prompt": "マスクは ___ですか。", "hint": "마스크는 어디예요?", "answer": "どこ" },
+        { "type": "write", "prompt": "メモは ___です。", "hint": "메모는 여기예요.", "answer": "ここ" }
+      ]
+    },
+    {
+      "title": "5. 일본어로 써 보기",
+      "desc": "한국어 문장을 일본어로 써 보세요.",
+      "items": [
+        { "type": "write", "prompt": "주방은 어디예요?", "answer": "キッチンは どこですか。", "cells": 20 },
+        { "type": "write", "prompt": "저는 김치를 좋아해요.", "answer": "わたしは キムチが すきです。", "cells": 20 },
+        { "type": "write", "prompt": "치킨 두 개 주세요.", "answer": "チキンを ふたつ ください。", "cells": 20 },
+        { "type": "write", "prompt": "햄은 저기예요.", "answer": "ハムは あそこです。", "cells": 20 }
+      ]
+    }
+  ]
+}

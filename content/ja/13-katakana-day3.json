@@ -1,0 +1,88 @@
+{
+  "lang": "ja",
+  "level": "가타카나 3일차",
+  "title": "ナ행 · ハ행",
+  "subtitle": "ナ ニ ヌ ネ ノ ハ ヒ フ ヘ ホ",
+  "goal": "ナ행·ハ행을 쓰고, '～を ください'로 주문할 수 있어요.",
+  "sections": [
+    {
+      "title": "1. 오늘의 글자",
+      "items": [
+        {
+          "type": "note",
+          "style": "cards",
+          "examples": [
+            { "text": "ナ", "ko": "na · な" },
+            { "text": "ニ", "ko": "ni · に" },
+            { "text": "ヌ", "ko": "nu · ぬ" },
+            { "text": "ネ", "ko": "ne · ね" },
+            { "text": "ノ", "ko": "no · の" },
+            { "text": "ハ", "ko": "ha · は" },
+            { "text": "ヒ", "ko": "hi · ひ" },
+            { "text": "フ", "ko": "fu · ふ" },
+            { "text": "ヘ", "ko": "he · へ" },
+            { "text": "ホ", "ko": "ho · ほ" }
+          ]
+        },
+        {
+          "type": "note",
+          "title": "알아 두기",
+          "text": "**ヌ**(nu)와 **ス**(su): ヌ에는 가운데를 가로지르는 짧은 획이 하나 더 있어요.\n**ヘ**(he)는 히라가나 へ와 거의 똑같아요.\n**ニ**는 숫자 '二', **ハ**는 '八'과 닮았어요.\n**フ**(fu)는 '후'와 '푸' 사이 소리예요. 입술을 살짝 모으고 바람을 내보내요."
+        }
+      ]
+    },
+    {
+      "title": "2. 따라 쓰기",
+      "desc": "흐린 글자를 따라 3번 쓰고, 빈칸에 혼자 써 보세요.",
+      "items": [
+        { "type": "kana", "char": "ナ", "romaji": "na", "ko": "나 · な", "blank": 5 },
+        { "type": "kana", "char": "ニ", "romaji": "ni", "ko": "니 · に", "blank": 5 },
+        { "type": "kana", "char": "ヌ", "romaji": "nu", "ko": "누 · ぬ", "blank": 5 },
+        { "type": "kana", "char": "ネ", "romaji": "ne", "ko": "네 · ね", "blank": 5 },
+        { "type": "kana", "char": "ノ", "romaji": "no", "ko": "노 · の", "blank": 5 },
+        { "type": "kana", "char": "ハ", "romaji": "ha", "ko": "하 · は", "blank": 5 },
+        { "type": "kana", "char": "ヒ", "romaji": "hi", "ko": "히 · ひ", "blank": 5 },
+        { "type": "kana", "char": "フ", "romaji": "fu", "ko": "후 · ふ", "blank": 5 },
+        { "type": "kana", "char": "ヘ", "romaji": "he", "ko": "헤 · へ", "blank": 5 },
+        { "type": "kana", "char": "ホ", "romaji": "ho", "ko": "호 · ほ", "blank": 5 }
+      ]
+    },
+    {
+      "title": "3. 단어 써 보기",
+      "desc": "히라가나를 보고 가타카나로 써 보세요.",
+      "items": [
+        { "type": "write", "prompt": "こーひー", "hint": "커피", "answer": "コーヒー" },
+        { "type": "write", "prompt": "のーと", "hint": "노트, 공책", "answer": "ノート" },
+        { "type": "write", "prompt": "てにす", "hint": "테니스", "answer": "テニス" },
+        { "type": "write", "prompt": "ないふ", "hint": "나이프, 칼", "answer": "ナイフ" },
+        { "type": "write", "prompt": "ねくたい", "hint": "넥타이", "answer": "ネクタイ" },
+        { "type": "write", "prompt": "ほっとけーき", "hint": "핫케이크", "answer": "ホットケーキ" }
+      ]
+    },
+    {
+      "title": "4. 오늘의 문장: ～を ください。",
+      "items": [
+        {
+          "type": "note",
+          "text": "**～を ください。** = ~ 주세요.\n**を**는 'o(오)'로 읽어요.\n개수를 말할 때: **ひとつ**(하나) · **ふたつ**(둘) → **コーヒーを ひとつ ください。**",
+          "examples": [
+            { "text": "コーヒーを ください。", "ko": "커피 주세요." },
+            { "text": "ホットケーキを ふたつ ください。", "ko": "핫케이크 두 개 주세요." }
+          ]
+        },
+        { "type": "write", "prompt": "ノートを ___。", "hint": "노트 주세요.", "answer": "ください" },
+        { "type": "write", "prompt": "コーヒーを ___ ください。", "hint": "커피 하나 주세요.", "answer": "ひとつ" }
+      ]
+    },
+    {
+      "title": "5. 일본어로 써 보기",
+      "desc": "한국어 문장을 일본어로 써 보세요.",
+      "items": [
+        { "type": "write", "prompt": "나이프 주세요.", "answer": "ナイフを ください。", "cells": 20 },
+        { "type": "write", "prompt": "핫케이크 하나 주세요.", "answer": "ホットケーキを ひとつ ください。", "cells": 20 },
+        { "type": "write", "prompt": "저는 테니스를 좋아해요.", "answer": "わたしは テニスが すきです。", "cells": 20 },
+        { "type": "write", "prompt": "이것은 넥타이입니까?", "answer": "これは ネクタイですか。", "cells": 20 }
+      ]
+    }
+  ]
+}

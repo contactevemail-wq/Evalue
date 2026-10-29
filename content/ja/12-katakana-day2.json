@@ -1,0 +1,88 @@
+{
+  "lang": "ja",
+  "level": "가타카나 2일차",
+  "title": "サ행 · タ행과 작은 ッ",
+  "subtitle": "サ シ ス セ ソ タ チ ツ テ ト",
+  "goal": "シ와 ツ를 구별해서 쓰고, '～が すきです'로 좋아하는 것을 말할 수 있어요.",
+  "sections": [
+    {
+      "title": "1. 오늘의 글자",
+      "items": [
+        {
+          "type": "note",
+          "style": "cards",
+          "examples": [
+            { "text": "サ", "ko": "sa · さ" },
+            { "text": "シ", "ko": "shi · し" },
+            { "text": "ス", "ko": "su · す" },
+            { "text": "セ", "ko": "se · せ" },
+            { "text": "ソ", "ko": "so · そ" },
+            { "text": "タ", "ko": "ta · た" },
+            { "text": "チ", "ko": "chi · ち" },
+            { "text": "ツ", "ko": "tsu · つ" },
+            { "text": "テ", "ko": "te · て" },
+            { "text": "ト", "ko": "to · と" }
+          ]
+        },
+        {
+          "type": "note",
+          "title": "가장 헷갈리는 두 글자",
+          "text": "**シ**(shi): 점 두 개를 **위아래로** 찍고, 마지막 획을 **아래에서 위로** 올려요.\n**ツ**(tsu): 점 두 개를 **나란히** 찍고, 마지막 획을 **위에서 아래로** 내려요.\n**작은 ッ**: 다음 소리 앞에서 한 박자 쉬어요. 받침처럼 들려요. 예: チケット(치켓토)\n작은 ッ도 한 칸을 차지하고, 칸의 왼쪽 아래에 작게 써요."
+        }
+      ]
+    },
+    {
+      "title": "2. 따라 쓰기",
+      "desc": "シ와 ツ는 획 방향을 생각하면서 써 보세요.",
+      "items": [
+        { "type": "kana", "char": "サ", "romaji": "sa", "ko": "사 · さ", "blank": 5 },
+        { "type": "kana", "char": "シ", "romaji": "shi", "ko": "시 · し", "blank": 5 },
+        { "type": "kana", "char": "ス", "romaji": "su", "ko": "스 · す", "blank": 5 },
+        { "type": "kana", "char": "セ", "romaji": "se", "ko": "세 · せ", "blank": 5 },
+        { "type": "kana", "char": "ソ", "romaji": "so", "ko": "소 · そ", "blank": 5 },
+        { "type": "kana", "char": "タ", "romaji": "ta", "ko": "타 · た", "blank": 5 },
+        { "type": "kana", "char": "チ", "romaji": "chi", "ko": "치 · ち", "blank": 5 },
+        { "type": "kana", "char": "ツ", "romaji": "tsu", "ko": "츠 · つ", "blank": 5 },
+        { "type": "kana", "char": "テ", "romaji": "te", "ko": "테 · て", "blank": 5 },
+        { "type": "kana", "char": "ト", "romaji": "to", "ko": "토 · と", "blank": 5 }
+      ]
+    },
+    {
+      "title": "3. 단어 써 보기",
+      "desc": "히라가나를 보고 가타카나로 써 보세요.",
+      "items": [
+        { "type": "write", "prompt": "あいす", "hint": "아이스크림", "answer": "アイス" },
+        { "type": "write", "prompt": "たくしー", "hint": "택시", "answer": "タクシー" },
+        { "type": "write", "prompt": "てすと", "hint": "테스트, 시험", "answer": "テスト" },
+        { "type": "write", "prompt": "ちけっと", "hint": "티켓", "answer": "チケット" },
+        { "type": "write", "prompt": "さっかー", "hint": "축구", "answer": "サッカー" },
+        { "type": "write", "prompt": "せーたー", "hint": "스웨터", "answer": "セーター" }
+      ]
+    },
+    {
+      "title": "4. 오늘의 문장: ～が すきです。",
+      "items": [
+        {
+          "type": "note",
+          "text": "**～が すきです。** = ~를 좋아해요. 한국어로는 '를'이지만 일본어는 **が**를 써요.\n**わたしは** = 저는\n질문: **～が すきですか。** → **はい、すきです。**(네, 좋아해요.)",
+          "examples": [
+            { "text": "わたしは アイスが すきです。", "ko": "저는 아이스크림을 좋아해요." },
+            { "text": "サッカーが すきですか。", "ko": "축구 좋아해요?" },
+            { "text": "はい、すきです。", "ko": "네, 좋아해요." }
+          ]
+        },
+        { "type": "write", "prompt": "わたしは ___が すきです。", "hint": "저는 스키를 좋아해요.", "answer": "スキー" },
+        { "type": "write", "prompt": "セーターが ___ですか。", "hint": "스웨터를 좋아해요?", "answer": "すき" }
+      ]
+    },
+    {
+      "title": "5. 일본어로 써 보기",
+      "desc": "한국어 문장을 일본어로 써 보세요.",
+      "items": [
+        { "type": "write", "prompt": "저는 축구를 좋아해요.", "answer": "わたしは サッカーが すきです。", "cells": 20 },
+        { "type": "write", "prompt": "아이스크림 좋아해요?", "answer": "アイスが すきですか。", "cells": 20 },
+        { "type": "write", "prompt": "이것은 티켓입니다.", "answer": "これは チケットです。", "cells": 20, "explain": "1일차 문장 **これは ～です**를 복습했어요." }
+      ]
+    }
+  ]
+}

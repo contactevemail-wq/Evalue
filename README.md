@@ -29,6 +29,18 @@ python3 -m http.server 8000
 1. 저장소 **Settings → Pages → Source** 를 **GitHub Actions** 로 바꿔요.
 2. `main` 브랜치에 푸시하면 `.github/workflows/pages.yml` 이 자동으로 배포해요.
 
+## PDF 학습지 (노트앱용)
+
+`pdf/` 폴더에 아이패드 화면 비율 PDF가 있어요. 굿노트 같은 노트앱으로 가져와서 펜으로 쓰면 돼요. 정답과 해설은 각 학습지 맨 뒤에 있어요.
+
+- `pdf/katakana-week1.pdf`: 가타카나 1주차 7일치 묶음
+- `pdf/ja/1N-katakana-dayN.pdf`: 하루치씩
+
+```bash
+node tools/make-pdf.cjs ja/11-katakana-day1                  # 학습지별 PDF
+node tools/make-pdf.cjs --bundle 이름 ja/11-katakana-day1 ...  # 여러 개를 한 파일로
+```
+
 ## 학습지 추가
 
 학습지는 `content/` 폴더의 JSON 파일이에요. 형식은 [CLAUDE.md](CLAUDE.md)에 정리돼 있어요.

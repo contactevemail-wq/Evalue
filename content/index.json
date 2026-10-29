@@ -4,6 +4,13 @@
       "code": "ja",
       "name": "일본어",
       "sheets": [
+        "ja/11-katakana-day1",
+        "ja/12-katakana-day2",
+        "ja/13-katakana-day3",
+        "ja/14-katakana-day4",
+        "ja/15-katakana-day5",
+        "ja/16-katakana-day6",
+        "ja/17-katakana-day7",
         "ja/01-hiragana-a",
         "ja/02-hiragana-ka",
         "ja/03-hiragana-sa",

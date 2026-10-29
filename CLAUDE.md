@@ -6,6 +6,10 @@
 - 학습지 내용은 `content/` 의 JSON 파일이다. "학습지 추가해줘" 요청은 보통 JSON 파일 추가 + `content/index.json` 등록이다.
 - 추가·수정 후 `node tools/check-content.mjs` 로 검사한다.
 - 로컬 실행: `python3 -m http.server 8000` 후 http://localhost:8000 (ES 모듈이라 file:// 로는 안 열림)
+- 사용자는 주로 **PDF 학습지를 노트앱에 넣어서** 쓴다. 학습지를 추가하면 PDF도 만들어 `pdf/` 에 커밋한다:
+  `node tools/make-pdf.cjs <id>...` (학습지별) / `node tools/make-pdf.cjs --bundle <이름> <id>...` (한 파일로 묶기)
+  페이지는 아이패드 화면 비율(164×236mm). PDF에서는 🔊(`speak`)가 동작하지 않으니 PDF용 학습지에는 듣고 쓰기 문항을 넣지 않는다.
+- 진도: 히라가나는 이미 안다. 일본어는 가타카나 1주차(`ja/11`~`ja/17`)까지 만들었다.
 
 ## 구조
 

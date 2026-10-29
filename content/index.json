@@ -1,0 +1,23 @@
+{
+  "languages": [
+    {
+      "code": "ja",
+      "name": "일본어",
+      "sheets": [
+        "ja/01-hiragana-a",
+        "ja/02-hiragana-ka",
+        "ja/03-hiragana-sa",
+        "ja/04-hiragana-ta"
+      ]
+    },
+    {
+      "code": "en",
+      "name": "영어",
+      "sheets": [
+        "en/01-greetings",
+        "en/02-cafe",
+        "en/03-directions"
+      ]
+    }
+  ]
+}

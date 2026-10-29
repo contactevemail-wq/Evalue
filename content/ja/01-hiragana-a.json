@@ -1,0 +1,62 @@
+{
+  "lang": "ja",
+  "level": "히라가나 1",
+  "title": "히라가나 あ행",
+  "subtitle": "あ い う え お",
+  "goal": "일본어 모음 다섯 개를 읽고 쓸 수 있어요.",
+  "sections": [
+    {
+      "title": "1. 소리와 모양 알아보기",
+      "items": [
+        {
+          "type": "note",
+          "text": "あ행은 일본어의 **모음**이에요. 모든 히라가나의 기본 소리가 되니까 꼭 익혀 두세요.\n🔊를 눌러 소리를 듣고, 따라 말해 보세요.",
+          "style": "cards",
+          "examples": [
+            { "text": "あ", "ko": "a · 아" },
+            { "text": "い", "ko": "i · 이" },
+            { "text": "う", "ko": "u · 우" },
+            { "text": "え", "ko": "e · 에" },
+            { "text": "お", "ko": "o · 오" }
+          ]
+        },
+        {
+          "type": "note",
+          "title": "발음 팁",
+          "text": "**う**는 입술을 앞으로 내밀지 않고 '으'와 '우' 사이로 가볍게 소리 내요.\n**え**는 한국어 '에'와 거의 같아요. '애'처럼 입을 크게 벌리지 않아요."
+        }
+      ]
+    },
+    {
+      "title": "2. 따라 쓰기",
+      "desc": "흐린 글자를 따라 3번 쓰고, 빈칸에 혼자 써 보세요.",
+      "items": [
+        { "type": "kana", "char": "あ", "romaji": "a", "ko": "아" },
+        { "type": "kana", "char": "い", "romaji": "i", "ko": "이" },
+        { "type": "kana", "char": "う", "romaji": "u", "ko": "우" },
+        { "type": "kana", "char": "え", "romaji": "e", "ko": "에" },
+        { "type": "kana", "char": "お", "romaji": "o", "ko": "오" }
+      ]
+    },
+    {
+      "title": "3. 단어 써 보기",
+      "desc": "로마자를 보고 히라가나로 써 보세요.",
+      "items": [
+        { "type": "write", "prompt": "ai", "hint": "사랑", "answer": "あい" },
+        { "type": "write", "prompt": "ie", "hint": "집", "answer": "いえ" },
+        { "type": "write", "prompt": "ue", "hint": "위", "answer": "うえ" },
+        { "type": "write", "prompt": "ao", "hint": "파랑", "answer": "あお" },
+        { "type": "write", "prompt": "iie", "hint": "아니요", "answer": "いいえ", "explain": "같은 글자 い를 두 번 써요. '이-에'처럼 앞을 길게 읽어요." }
+      ]
+    },
+    {
+      "title": "4. 듣고 쓰기",
+      "desc": "🔊를 눌러 듣고, 들은 단어를 히라가나로 써 보세요.",
+      "items": [
+        { "type": "write", "prompt": "잘 듣고 써 보세요", "speak": "うえ", "hint": "뜻: 위", "answer": "うえ" },
+        { "type": "write", "prompt": "잘 듣고 써 보세요", "speak": "あい", "hint": "뜻: 사랑", "answer": "あい" },
+        { "type": "write", "prompt": "잘 듣고 써 보세요", "speak": "え", "hint": "뜻: 그림", "answer": "え" }
+      ]
+    }
+  ]
+}

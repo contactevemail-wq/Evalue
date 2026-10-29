@@ -1,0 +1,63 @@
+{
+  "lang": "ja",
+  "level": "히라가나 4",
+  "title": "히라가나 た행",
+  "subtitle": "た ち つ て と",
+  "goal": "た행을 읽고 쓰고, 'ち'와 'つ'를 정확히 발음해요.",
+  "sections": [
+    {
+      "title": "1. 소리와 모양 알아보기",
+      "items": [
+        {
+          "type": "note",
+          "text": "た행은 **t + 모음**이지만, **ち(chi)**와 **つ(tsu)**는 소리가 조금 달라요.",
+          "style": "cards",
+          "examples": [
+            { "text": "た", "ko": "ta · 타" },
+            { "text": "ち", "ko": "chi · 치" },
+            { "text": "つ", "ko": "tsu · 츠" },
+            { "text": "て", "ko": "te · 테" },
+            { "text": "と", "ko": "to · 토" }
+          ]
+        },
+        {
+          "type": "note",
+          "title": "발음 팁",
+          "text": "**つ**는 한국어에 없는 소리예요. 혀끝을 윗니 뒤에 붙였다가 떼면서 '츠'라고 해 보세요. '쓰'나 '추'가 아니에요.\n**ち**는 **さ**를 좌우로 뒤집은 모양이에요. 헷갈리면 두 글자를 나란히 놓고 비교하며 써 보세요."
+        }
+      ]
+    },
+    {
+      "title": "2. 따라 쓰기",
+      "desc": "흐린 글자를 따라 3번 쓰고, 빈칸에 혼자 써 보세요.",
+      "items": [
+        { "type": "kana", "char": "た", "romaji": "ta", "ko": "타" },
+        { "type": "kana", "char": "ち", "romaji": "chi", "ko": "치" },
+        { "type": "kana", "char": "つ", "romaji": "tsu", "ko": "츠" },
+        { "type": "kana", "char": "て", "romaji": "te", "ko": "테" },
+        { "type": "kana", "char": "と", "romaji": "to", "ko": "토" }
+      ]
+    },
+    {
+      "title": "3. 단어 써 보기",
+      "desc": "로마자를 보고 히라가나로 써 보세요.",
+      "items": [
+        { "type": "write", "prompt": "tako", "hint": "문어", "answer": "たこ" },
+        { "type": "write", "prompt": "kutsu", "hint": "신발", "answer": "くつ" },
+        { "type": "write", "prompt": "te", "hint": "손", "answer": "て" },
+        { "type": "write", "prompt": "tokei", "hint": "시계", "answer": "とけい" },
+        { "type": "write", "prompt": "tsukue", "hint": "책상", "answer": "つくえ" },
+        { "type": "write", "prompt": "chikatetsu", "hint": "지하철", "answer": "ちかてつ" }
+      ]
+    },
+    {
+      "title": "4. 듣고 쓰기",
+      "desc": "🔊를 눌러 듣고, 들은 단어를 히라가나로 써 보세요.",
+      "items": [
+        { "type": "write", "prompt": "잘 듣고 써 보세요", "speak": "いと", "hint": "뜻: 실", "answer": "いと" },
+        { "type": "write", "prompt": "잘 듣고 써 보세요", "speak": "した", "hint": "뜻: 아래", "answer": "した" },
+        { "type": "write", "prompt": "잘 듣고 써 보세요", "speak": "あつい", "hint": "뜻: 덥다", "answer": "あつい" }
+      ]
+    }
+  ]
+}

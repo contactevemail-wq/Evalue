@@ -1,0 +1,63 @@
+{
+  "lang": "ja",
+  "level": "히라가나 3",
+  "title": "히라가나 さ행",
+  "subtitle": "さ し す せ そ",
+  "goal": "さ행을 읽고 쓰고, 'し'와 'す'의 소리 차이를 알아요.",
+  "sections": [
+    {
+      "title": "1. 소리와 모양 알아보기",
+      "items": [
+        {
+          "type": "note",
+          "text": "さ행은 **s + 모음**이에요. 그런데 **し**만 'si'가 아니라 **shi(시)**로 읽어요.",
+          "style": "cards",
+          "examples": [
+            { "text": "さ", "ko": "sa · 사" },
+            { "text": "し", "ko": "shi · 시" },
+            { "text": "す", "ko": "su · 스" },
+            { "text": "せ", "ko": "se · 세" },
+            { "text": "そ", "ko": "so · 소" }
+          ]
+        },
+        {
+          "type": "note",
+          "title": "발음 팁",
+          "text": "**す**는 '수'보다 '스'에 가깝게, 입술에 힘을 빼고 읽어요. 예: すし(스시)\n**さ**와 **ち**는 좌우가 뒤집힌 모양이라 헷갈리기 쉬워요. ち는 다음 학습지에서 배워요."
+        }
+      ]
+    },
+    {
+      "title": "2. 따라 쓰기",
+      "desc": "흐린 글자를 따라 3번 쓰고, 빈칸에 혼자 써 보세요.",
+      "items": [
+        { "type": "kana", "char": "さ", "romaji": "sa", "ko": "사" },
+        { "type": "kana", "char": "し", "romaji": "shi", "ko": "시" },
+        { "type": "kana", "char": "す", "romaji": "su", "ko": "스" },
+        { "type": "kana", "char": "せ", "romaji": "se", "ko": "세" },
+        { "type": "kana", "char": "そ", "romaji": "so", "ko": "소" }
+      ]
+    },
+    {
+      "title": "3. 단어 써 보기",
+      "desc": "로마자를 보고 히라가나로 써 보세요.",
+      "items": [
+        { "type": "write", "prompt": "sushi", "hint": "초밥", "answer": "すし" },
+        { "type": "write", "prompt": "asa", "hint": "아침", "answer": "あさ" },
+        { "type": "write", "prompt": "isu", "hint": "의자", "answer": "いす" },
+        { "type": "write", "prompt": "kasa", "hint": "우산", "answer": "かさ" },
+        { "type": "write", "prompt": "suki", "hint": "좋아함", "answer": "すき" },
+        { "type": "write", "prompt": "sekai", "hint": "세계", "answer": "せかい" }
+      ]
+    },
+    {
+      "title": "4. 듣고 쓰기",
+      "desc": "🔊를 눌러 듣고, 들은 단어를 히라가나로 써 보세요.",
+      "items": [
+        { "type": "write", "prompt": "잘 듣고 써 보세요", "speak": "しお", "hint": "뜻: 소금", "answer": "しお" },
+        { "type": "write", "prompt": "잘 듣고 써 보세요", "speak": "うそ", "hint": "뜻: 거짓말", "answer": "うそ" },
+        { "type": "write", "prompt": "잘 듣고 써 보세요", "speak": "そこ", "hint": "뜻: 거기", "answer": "そこ" }
+      ]
+    }
+  ]
+}

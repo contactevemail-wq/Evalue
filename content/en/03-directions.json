@@ -1,0 +1,61 @@
+{
+  "lang": "en",
+  "level": "초급 회화 3",
+  "title": "길 묻기",
+  "subtitle": "Where is the station?",
+  "goal": "장소가 어디 있는지 묻고, 간단한 길 안내를 알아들을 수 있어요.",
+  "sections": [
+    {
+      "title": "1. 대화 듣기",
+      "desc": "대화를 듣고 따라 읽어 보세요.",
+      "items": [
+        {
+          "type": "dialogue",
+          "lines": [
+            { "speaker": "A", "text": "Excuse me. Where is the subway station?", "ko": "실례합니다. 지하철역이 어디예요?" },
+            { "speaker": "B", "text": "Go straight and turn left at the corner.", "ko": "곧장 가다가 모퉁이에서 왼쪽으로 도세요." },
+            { "speaker": "A", "text": "Is it far from here?", "ko": "여기서 멀어요?" },
+            { "speaker": "B", "text": "No, it's about five minutes on foot.", "ko": "아니요, 걸어서 5분쯤이에요." },
+            { "speaker": "A", "text": "Thank you so much!", "ko": "정말 고마워요!" },
+            { "speaker": "B", "text": "You're welcome.", "ko": "천만에요." }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "2. 핵심 표현",
+      "items": [
+        {
+          "type": "note",
+          "text": "**Excuse me.** = 실례합니다. 모르는 사람에게 말을 걸 때 먼저 해요.\n**Where is ~?** = ~가 어디예요?\n**Go straight.** 직진 / **Turn left.** 왼쪽으로 / **Turn right.** 오른쪽으로\n**It's next to ~.** = ~ 옆에 있어요.",
+          "examples": [
+            { "text": "Where is the restroom?", "ko": "화장실이 어디예요?" },
+            { "text": "It's next to the bank.", "ko": "은행 옆에 있어요." },
+            { "text": "It's about ten minutes on foot.", "ko": "걸어서 10분쯤이에요." }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "3. 빈칸 채우기",
+      "desc": "빈칸에 들어갈 단어를 써 보세요.",
+      "items": [
+        { "type": "write", "prompt": "___ me. Where is the bank?", "hint": "실례합니다. 은행이 어디예요?", "answer": "Excuse", "short": true },
+        { "type": "write", "prompt": "Go ___ and turn right.", "hint": "곧장 가다가 오른쪽으로 도세요.", "answer": "straight", "short": true },
+        { "type": "write", "prompt": "Turn ___ at the corner.", "hint": "모퉁이에서 왼쪽으로 도세요.", "answer": "left", "short": true },
+        { "type": "write", "prompt": "It's ___ to the bank.", "hint": "은행 옆에 있어요.", "answer": "next", "short": true }
+      ]
+    },
+    {
+      "title": "4. 영어로 써 보기",
+      "desc": "한국어 문장을 영어로 써 보세요.",
+      "items": [
+        { "type": "write", "prompt": "실례합니다. 화장실이 어디예요?", "answer": "Excuse me. Where is the restroom?", "alts": ["Excuse me. Where's the bathroom?"], "explain": "미국에서는 공공장소 화장실을 보통 **restroom**이라고 해요." },
+        { "type": "write", "prompt": "오른쪽으로 도세요.", "answer": "Turn right." },
+        { "type": "write", "prompt": "여기서 멀어요?", "answer": "Is it far from here?" },
+        { "type": "write", "prompt": "걸어서 5분쯤이에요.", "answer": "It's about five minutes on foot.", "alts": ["It's about a five-minute walk."] },
+        { "type": "write", "prompt": "정말 고마워요!", "answer": "Thank you so much!", "alts": ["Thanks a lot!"] }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "lang": "ja",
+  "level": "히라가나 2",
+  "title": "히라가나 か행",
+  "subtitle": "か き く け こ",
+  "goal": "か행을 읽고 쓰고, あ행과 합쳐 단어를 만들 수 있어요.",
+  "sections": [
+    {
+      "title": "1. 소리와 모양 알아보기",
+      "items": [
+        {
+          "type": "note",
+          "text": "か행은 **k + 모음**이에요. あ행 소리 앞에 'ㅋ'를 붙이면 돼요.",
+          "style": "cards",
+          "examples": [
+            { "text": "か", "ko": "ka · 카" },
+            { "text": "き", "ko": "ki · 키" },
+            { "text": "く", "ko": "ku · 쿠" },
+            { "text": "け", "ko": "ke · 케" },
+            { "text": "こ", "ko": "ko · 코" }
+          ]
+        },
+        {
+          "type": "note",
+          "title": "발음 팁",
+          "text": "단어 **첫머리**에서는 '카'에 가깝고, 단어 **중간**에서는 '까'에 가깝게 들려요. 예: あか(아까)\n**き**와 **さ**는 모양이 비슷해요. き는 가로선이 두 개, さ는 하나예요."
+        }
+      ]
+    },
+    {
+      "title": "2. 따라 쓰기",
+      "desc": "흐린 글자를 따라 3번 쓰고, 빈칸에 혼자 써 보세요.",
+      "items": [
+        { "type": "kana", "char": "か", "romaji": "ka", "ko": "카" },
+        { "type": "kana", "char": "き", "romaji": "ki", "ko": "키" },
+        { "type": "kana", "char": "く", "romaji": "ku", "ko": "쿠" },
+        { "type": "kana", "char": "け", "romaji": "ke", "ko": "케" },
+        { "type": "kana", "char": "こ", "romaji": "ko", "ko": "코" }
+      ]
+    },
+    {
+      "title": "3. 단어 써 보기",
+      "desc": "로마자를 보고 히라가나로 써 보세요.",
+      "items": [
+        { "type": "write", "prompt": "kao", "hint": "얼굴", "answer": "かお" },
+        { "type": "write", "prompt": "aka", "hint": "빨강", "answer": "あか" },
+        { "type": "write", "prompt": "eki", "hint": "역", "answer": "えき" },
+        { "type": "write", "prompt": "koe", "hint": "목소리", "answer": "こえ" },
+        { "type": "write", "prompt": "kiku", "hint": "듣다", "answer": "きく" },
+        { "type": "write", "prompt": "koko", "hint": "여기", "answer": "ここ" }
+      ]
+    },
+    {
+      "title": "4. 듣고 쓰기",
+      "desc": "🔊를 눌러 듣고, 들은 단어를 히라가나로 써 보세요.",
+      "items": [
+        { "type": "write", "prompt": "잘 듣고 써 보세요", "speak": "あき", "hint": "뜻: 가을", "answer": "あき" },
+        { "type": "write", "prompt": "잘 듣고 써 보세요", "speak": "いけ", "hint": "뜻: 연못", "answer": "いけ" },
+        { "type": "write", "prompt": "잘 듣고 써 보세요", "speak": "かく", "hint": "뜻: 쓰다", "answer": "かく" }
+      ]
+    }
+  ]
+}

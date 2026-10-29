@@ -1,0 +1,77 @@
+{
+  "lang": "en",
+  "level": "초급 회화 1",
+  "title": "인사와 자기소개",
+  "subtitle": "Nice to meet you!",
+  "goal": "처음 만난 사람에게 인사하고, 이름·출신·사는 곳을 말할 수 있어요.",
+  "sections": [
+    {
+      "title": "1. 대화 듣기",
+      "desc": "대화를 듣고 따라 읽어 보세요. 모르는 문장은 '해석 보기'를 눌러요.",
+      "items": [
+        {
+          "type": "dialogue",
+          "lines": [
+            { "speaker": "Jisu", "text": "Hi, I'm Jisu. Nice to meet you.", "ko": "안녕하세요, 저는 지수예요. 만나서 반가워요." },
+            { "speaker": "Tom", "text": "Hi, Jisu. I'm Tom. Nice to meet you, too.", "ko": "안녕하세요, 지수 씨. 저는 톰이에요. 저도 만나서 반가워요." },
+            { "speaker": "Jisu", "text": "Where are you from, Tom?", "ko": "톰은 어디 출신이에요?" },
+            { "speaker": "Tom", "text": "I'm from Canada. How about you?", "ko": "캐나다에서 왔어요. 지수 씨는요?" },
+            { "speaker": "Jisu", "text": "I'm from Korea. I live in Seoul.", "ko": "저는 한국에서 왔어요. 서울에 살아요." },
+            { "speaker": "Tom", "text": "Cool! What do you do?", "ko": "멋지네요! 무슨 일 하세요?" },
+            { "speaker": "Jisu", "text": "I'm a student.", "ko": "저는 학생이에요." }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "2. 핵심 표현",
+      "items": [
+        {
+          "type": "note",
+          "text": "**I'm ~.** = 저는 ~예요. (I am을 줄인 말)\n**Nice to meet you.** 라고 하면 **Nice to meet you, too.** 로 답해요.\n**Where are you from?** → **I'm from + 나라.**\n**What do you do?** 는 '무엇을 하니?'가 아니라 **직업을 묻는 말**이에요.",
+          "examples": [
+            { "text": "I'm from Korea.", "ko": "저는 한국에서 왔어요." },
+            { "text": "I live in Busan.", "ko": "저는 부산에 살아요." },
+            { "text": "I'm an office worker.", "ko": "저는 회사원이에요." }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "3. 빈칸 채우기",
+      "desc": "빈칸에 들어갈 단어를 써 보세요.",
+      "items": [
+        { "type": "write", "prompt": "Nice to ___ you.", "hint": "만나서 반가워요.", "answer": "meet", "short": true },
+        { "type": "write", "prompt": "Where ___ you from?", "hint": "어디 출신이에요?", "answer": "are", "short": true },
+        { "type": "write", "prompt": "I'm ___ Korea.", "hint": "저는 한국에서 왔어요.", "answer": "from", "short": true },
+        { "type": "write", "prompt": "I ___ in Seoul.", "hint": "저는 서울에 살아요.", "answer": "live", "short": true },
+        { "type": "write", "prompt": "What do you ___?", "hint": "무슨 일 하세요?", "answer": "do", "short": true }
+      ]
+    },
+    {
+      "title": "4. 영어로 써 보기",
+      "desc": "한국어 문장을 영어로 써 보세요.",
+      "items": [
+        { "type": "write", "prompt": "안녕하세요, 저는 민수예요.", "answer": "Hi, I'm Minsu.", "alts": ["Hello, I'm Minsu.", "Hi, my name is Minsu."] },
+        { "type": "write", "prompt": "만나서 반가워요.", "answer": "Nice to meet you." },
+        { "type": "write", "prompt": "저는 한국에서 왔어요.", "answer": "I'm from Korea.", "alts": ["I am from Korea."] },
+        { "type": "write", "prompt": "저는 부산에 살아요.", "answer": "I live in Busan." },
+        { "type": "write", "prompt": "당신은 어디 출신이에요?", "answer": "Where are you from?" }
+      ]
+    },
+    {
+      "title": "5. 나를 소개해 보기",
+      "items": [
+        {
+          "type": "write",
+          "prompt": "배운 표현으로 나를 2~3문장으로 소개해 보세요.",
+          "hint": "이름, 출신, 사는 곳, 하는 일",
+          "answer": "Hi, I'm Jisu. I'm from Korea. I live in Seoul, and I'm a student.",
+          "example": true,
+          "lines": 3,
+          "explain": "예시를 참고해서 내 이야기로 바꿔 써 보세요. 다 쓰면 빨간 펜으로 스스로 고쳐 보세요."
+        }
+      ]
+    }
+  ]
+}

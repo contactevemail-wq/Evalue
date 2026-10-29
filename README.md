@@ -18,7 +18,13 @@ python3 -m http.server 8000
 
 태블릿에서는 배포된 주소를 열고 **홈 화면에 추가**하면 앱처럼 쓸 수 있어요.
 
-### GitHub Pages 배포
+### Vercel 배포
+
+1. [vercel.com/new](https://vercel.com/new)에서 GitHub의 `Evalue` 저장소를 **Import** 해요.
+2. Framework Preset은 **Other** 그대로 두고 **Deploy**를 눌러요. 설정은 `vercel.json`에 들어 있어요.
+3. 그다음부터는 GitHub에 푸시할 때마다 자동으로 다시 배포돼요.
+
+### GitHub Pages 배포 (대안)
 
 1. 저장소 **Settings → Pages → Source** 를 **GitHub Actions** 로 바꿔요.
 2. `main` 브랜치에 푸시하면 `.github/workflows/pages.yml` 이 자동으로 배포해요.
